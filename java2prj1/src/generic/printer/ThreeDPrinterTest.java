@@ -12,6 +12,7 @@ public class ThreeDPrinterTest {
 		p2.setMaterial(new Powder());
 		p2.print();
 		
+		// G3Printer는 <T>, 즉 모든 타입이 가능하다
 		G3dPrinter<Plastic> p3 = new G3dPrinter<>();
 		p3.setMaterial(new Plastic());
 		p3.print();
@@ -31,8 +32,12 @@ public class ThreeDPrinterTest {
 		G3dPrinter2<Powder> p7 = new G3dPrinter2<>();
 		p7.setMaterial(new Powder());
 		p7.print();
-
-		//G3dPrinter2<Water> p8 = new G3dPrinter2<>();
+		
+		/*	Water클래스는 Material을 상속받지 않았기 때문에 쓸 수 없다
+		G3dPrinter2<Water> p8 = new G3dPrinter2<>();
+		p8.setMaterial(new Water());
+		p8.print();
+*/
 		
 	}
 

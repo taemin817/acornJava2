@@ -15,6 +15,6 @@ public class G3dPrinter2<T extends Material> {
 	}
 	
 	public void print() {
-		System.out.println("3d print" + material);
+		System.out.println("3d print " + material);
 	}
 }

@@ -9,7 +9,7 @@ public class Main {
 
 		//Cook형을 담을 수 있는 ArrayList를 준비한다
 		ArrayList<Cook> list = new ArrayList<Cook>();
-		  
+		 
 		// Cook을 상속받았으므로 각 각의 요리사 클래스를 담을 수 있다
 		list.add(new ArraylistEx김민규("김민규"));
 		list.add(new ChineseCook("chineseCook"));
@@ -25,7 +25,6 @@ public class Main {
 		list.add(new Pasta("조은경 "));
 		list.add(new Seoyejin("서예진"));
 		list.add(new Taemin("박태민"));
-		list.add(new 김민지요리사("김민지요리사 "));
 		 
  
 		// 요리사별로 ArrayList 준비하기

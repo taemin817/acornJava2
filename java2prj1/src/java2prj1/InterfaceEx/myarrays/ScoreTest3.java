@@ -4,6 +4,7 @@ import java.util.Comparator;
 
 public class ScoreTest3 {
 	public static void main(String[] args) {
+		
 		Score[] list = new Score[4];
 		list[0] = new Score(100, 90);
 		list[1] = new Score(80, 30);

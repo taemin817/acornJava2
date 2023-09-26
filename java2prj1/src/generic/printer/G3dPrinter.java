@@ -14,6 +14,6 @@ public class G3dPrinter<T> {
 	}
 	
 	public void print() {
-		System.out.println("3d print" + material);
+		System.out.println("3d print " + material);
 	}
 }

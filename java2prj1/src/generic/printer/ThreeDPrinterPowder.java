@@ -13,7 +13,7 @@ public class ThreeDPrinterPowder {
 	}
 
 	public void print() {
-		System.out.println("3D print use:" + material);
+		System.out.println("3D print use : " + material);
 	}
 
 }
