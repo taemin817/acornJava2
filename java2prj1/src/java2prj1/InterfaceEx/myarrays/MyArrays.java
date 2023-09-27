@@ -9,11 +9,9 @@ interface MyComparable<T> {
 public class MyArrays {
 //  Collections.sort에서의 sort를 직접 구현해 보았다.
 	public static void sort(Object[] arr) {
-
 		for (int i = 0; i < arr.length - 1; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				MyComparable m = (MyComparable) arr[i];
-
 				if (m.compareTo(arr[j]) > 0) {
 					Object tmp;
 					tmp = arr[i];

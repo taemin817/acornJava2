@@ -7,7 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class lamdaTest {
+public class 박태민_람다실습 {
 
 	public static void main(String[] args) {
 		// 버킷리스트

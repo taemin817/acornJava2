@@ -48,7 +48,6 @@ public class 박태민 {
 		class MultipleInterfaceImp implements multiple {
 			@Override
 			public int multiple(int a, int b) {
-				// TODO Auto-generated method stub
 				return a * b;
 			}
 		}
@@ -84,7 +83,6 @@ public class 박태민 {
 		subtract f2 = new subtract() {
 			@Override
 			public int subtract(int a, int b) {
-				// TODO Auto-generated method stub
 				return a-b;
 			}
 		};
@@ -95,7 +93,6 @@ public class 박태민 {
 		multiple f3 = new multiple() {
 			@Override
 			public int multiple(int a, int b) {
-				// TODO Auto-generated method stub
 				return a*b;
 			}
 		};
@@ -106,7 +103,6 @@ public class 박태민 {
 		divide f4 = new divide() {
 			@Override
 			public double divide(int a, int b) {
-				// TODO Auto-generated method stub
 				return a/b;
 			}
 		};

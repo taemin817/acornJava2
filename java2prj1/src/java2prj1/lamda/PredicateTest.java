@@ -21,6 +21,7 @@ public class PredicateTest {
 	boolean result2 = p2.test("stop");
 	System.out.println(result2);
 	
+	
 	// 3.
 	Predicate<Integer> p3 = new Predicate<>() {
 

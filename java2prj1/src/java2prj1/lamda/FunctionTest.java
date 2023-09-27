@@ -15,7 +15,7 @@ public class FunctionTest {
 		int result1 = f1.apply(10);
 		System.out.println(result1);
 
-		// 2.
+		// 2. 
 		Function<Integer, Integer> f2 = new Function<>() {
 
 			@Override
