@@ -5,7 +5,6 @@ public class Student {
 	int score;
 	String grade;
 	
-	
 	public String getName() {
 		return name;
 	}

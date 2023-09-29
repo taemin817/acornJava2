@@ -27,17 +27,16 @@ public class 표준태 {
 
 			@Override
 			public int randomsu(int su) {
-				// TODO Auto-generated method stub
 				return (int)(Math.random()*su);
 			}
 			
 		};
-		int result2 = No2.randomsu(3);
+		int result2 = No2.randomsu(5);
 		System.out.println(result2);
 		
 		//3번 람다 통해서 만들기
 		AddInterface No3 = su -> (int)(Math.random()*su);
-		int result3 = No3.randomsu(2);
+		int result3 = No3.randomsu(6);
 		System.out.println(result3);
 		
 	}

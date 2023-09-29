@@ -11,13 +11,11 @@ public class 병진나정_람다실습 {
 
 	public static void main(String[] args) {
 		
-		
 		//버전1 
 		BiConsumer<String,Integer> f1 = (name, score) -> {
 			System.out.println("학생의 이름은 " + name + ", 성적은 " + score);
 		};
 		f1.accept("병진", 90);
-		
 	
 		BiPredicate<String,String> f3 = (name, grade) -> {
 			if(grade == "A") {

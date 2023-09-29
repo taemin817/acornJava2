@@ -12,13 +12,14 @@ public static void main(String[] args) {
 		Runnable r= () ->{
 			Scanner sc= new Scanner(System.in);
 			int woods=10;
+			System.out.println("이름을 입력해주세요>");
 			
 			Consumer<String> intro = (x) ->{
 				System.out.println(x+"님 환영합니다");
 			};
 			
 			Supplier<Integer> log = () ->{
-				int ran= (int)(Math.random()*10);
+				int ran= (int)((Math.random()+1)*10);
 				System.out.println("벌목을해서 목재를"+ran+"만큼 얻었습니다.");
 				return ran;
 			};
@@ -36,7 +37,6 @@ public static void main(String[] args) {
 				System.out.println("나무를 이용해서 불을 피웁니다.(목재 5 소비)");
 				return x-5;
 			};
-			System.out.println("이름을 입력해주세요.");
 			intro.accept(sc.nextLine());
 			while(woods>0){
 				if(p.test("벌목")){
@@ -59,12 +59,6 @@ public static void main(String[] args) {
 		};
 		
 		r.run();
-		
-		
-		
-		
-		
-
 		
 		
 	}

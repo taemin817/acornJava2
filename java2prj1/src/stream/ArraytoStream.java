@@ -34,6 +34,7 @@ public class ArraytoStream {
 		// ArrayList를 stream으로
 		Stream<String> stream2 = list.stream();
 		
+		// Arrays든 list든 stream이 되어 다루는 방식이 같아짐
 		stream1.sorted().forEach(s -> System.out.println(s));
 
 		System.out.println("==========");
@@ -41,6 +42,7 @@ public class ArraytoStream {
 		
 		// 내림차순
 		Stream<String> stream3= list.stream();
+		System.out.println("==========");
 		stream3.sorted( (o1,o2)-> o2.compareTo(o1)).forEach( item -> System.out.println( item));
 		
 		

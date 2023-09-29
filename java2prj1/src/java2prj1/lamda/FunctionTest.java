@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 /*
  * interface Function<T, R>{
- * 	R apply(T);
+ * 	R apply(T);		// 하나의 매개변수를 받아 결과를 반환한다
  * */
 public class FunctionTest {
 

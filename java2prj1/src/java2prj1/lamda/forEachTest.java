@@ -6,9 +6,6 @@ import java.util.function.Consumer;
 public class forEachTest {
 
 	public static void main(String[] args) {
-		/*
-		 * 장주원 이미현 김두식 전계도 프랭크 김봉석 장희수 이강훈
-		 */
 		ArrayList<String> list = new ArrayList<>();
 		list.add("장주원");
 		list.add("이미현");
@@ -19,11 +16,12 @@ public class forEachTest {
 		list.add("장희수");
 		list.add("이강훈");
 		
+		System.out.println("===for문===");
 		for(int i=0; i<list.size(); i++) {
 			System.out.println(list.get(i));
 		}
-		System.out.println("======");
-		
+		System.out.println("=향상된 for문=");
+	
 		for(String name : list) {
 			System.out.println(name);
 		}

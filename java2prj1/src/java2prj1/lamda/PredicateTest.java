@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 /*
 interface Predicate<T>{
-		Boolean test (T t);
+		Boolean test (T t);		// 매개변수 1개 있고 반환을 true / false로 한다
 	}
 */
 public class PredicateTest {

@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 /*
  interface Consumer{
- 		void accept(Object o)
+ 		void accept(Object o)		// 매개변수만 있고 반환값이 없다
  		}
  */
 
@@ -19,7 +19,7 @@ public class ConsumerTest {
 		Consumer<String> c2 = new Consumer<>() {
 			@Override
 			public void accept(String t) {
-				System.out.println(t + " 다람쥐로 만든 치타탑");
+				System.out.println(t + "다람쥐로 만든 치타탑");
 			}
 		};
 		c2.accept("람다람쥐 ");

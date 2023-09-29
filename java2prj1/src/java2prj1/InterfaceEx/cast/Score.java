@@ -37,9 +37,7 @@ public class Score implements MyComparable {
 		return "Score [name=" + name + ", kor=" + kor + ", eng=" + eng + "]";
 	}
 	
-	public Score() {
-		// TODO Auto-generated constructor stub
-	}
+	public Score() {	}
 	@Override
 	public int compareTo(Object other) {
 		Score s = (Score)other;

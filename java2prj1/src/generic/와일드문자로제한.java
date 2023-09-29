@@ -5,6 +5,7 @@ import java.util.function.Consumer;
 
 public class 와일드문자로제한 {
 	// 구현할 메소드가 하나뿐인 인터페이스 : functional Interface -> 람다식으로 표현 가능
+	
 	public static void print(ArrayList<String> list) {
 		for( int i=0; i< list.size() ; i++) {		
 			System.out.println(list.get(i));
@@ -26,10 +27,10 @@ public class 와일드문자로제한 {
 		list.add("two");
 		list.add("three");
 
-		print(list);	// ArrayList<String> list
+		print(list);		// print(ArrayList<String> list) {
 		System.out.println("=====print(list)끝=====");
 		
-		print2(list);	// ArrayList<? super String> list
+		print2(list);		//	print2(ArrayList<? super String> list)
 		System.out.println("=====print2(list)끝=====");
 
 		ArrayList<Object> list2 = new ArrayList<>();
@@ -37,7 +38,7 @@ public class 와일드문자로제한 {
 		list2.add("two");
 		list2.add("three");
 
-		// print(list2); -> 오류
+		// print(list2);		=> list2 : <O? super String> /  print2 : <Object>  타입이 일치하지않아서 오류
 		print2(list2);
 		System.out.println("=====print2(list2)끝=====");
 		

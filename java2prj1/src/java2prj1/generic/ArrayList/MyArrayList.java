@@ -10,7 +10,7 @@ public class MyArrayList {
 		current = 0;
 	}
 	
-// 평소에 배열만들고 list.add(어쩌구) 하던 내용들을 직접 구현해 보았다
+	// 평소에 배열만들고 list.add(어쩌구) 하던 내용들을 직접 구현해 보았다
 	public void add(Object obj) {
 		nums[current] = obj;
 		current++;

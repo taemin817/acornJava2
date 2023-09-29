@@ -10,7 +10,6 @@ public class Test2 {
 	public static void main(String[] args) {
 		
 		ArrayList<String> list = new ArrayList<>();
-		
 		list.add("one");
 		list.add("two");
 		list.add("three");
@@ -29,16 +28,11 @@ System.out.println("==========");
 			}
 		});
 		
-		
-		
 		Collections.sort(list, new Comparator<>() {
-
 			@Override
 			public int compare(String o1, String o2) {
-				
 				return o1.compareTo(o2);
 			}
-			
 		});
 		
 		System.out.println("정렬 후 출력");
@@ -48,8 +42,6 @@ System.out.println("==========");
 		list.forEach(item -> System.out.println(item));
 		
 		Collections.sort(list, (o1,o2) -> o1.compareTo(o2));
-		
-		
 	}
 
 }

@@ -17,7 +17,7 @@ public class streamEx {
 
 		// 값이 hello인 애들 구하기
 		Stream<String> stream1 = list.stream();
-		System.out.println("==hello  인 애들==");
+		System.out.println("=='hello'인 애들==");
 		stream1.filter( str -> str.equals("hello")).forEach(s->System.out.println(s));
 		
 		// hello가 몇개인지 구하기

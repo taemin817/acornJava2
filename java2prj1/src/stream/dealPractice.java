@@ -41,8 +41,8 @@ public class dealPractice {
 		animal.add("eagle");
 		animal.add("whale");
 		// 걍 출력
-		for (String string : animal) {
-			System.out.print(string + " ");
+		for (String s : animal) {
+			System.out.print(s + " ");
 		}
 		System.out.println();
 		// ArrayList를 stream으로 바꾼 뒤

@@ -3,7 +3,7 @@ package java2prj1.lamda;
 import java.util.function.Supplier;
 
 /* interface Supplier<T>{
-		T get();
+		T get();		// 매개변수 없고 반환값만 있다
  	}
 */
 

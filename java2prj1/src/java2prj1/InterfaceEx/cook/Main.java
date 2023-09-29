@@ -10,20 +10,20 @@ public class Main {
 		//Cook형을 담을 수 있는 ArrayList를 준비한다
 		ArrayList<Cook> list = new ArrayList<Cook>();
 		 
-		// Cook을 상속받았으므로 각 각의 요리사 클래스를 담을 수 있다
-		list.add(new ArraylistEx김민규("김민규"));
-		list.add(new ChineseCook("chineseCook"));
-		list.add(new cook이정훈("이정훈"));
-		list.add(new HJHCook("HJHCook"));
-		list.add(new juntae("표준태"));
-		list.add(new kbj("김병진"));
-		list.add(new kjy("김재열"));
-		list.add(new ly("이윤 "));
-		list.add(new lyj("이윤정"));
-		list.add(new myCook("myCook"));
-		list.add(new Najeong("문나정"));		 
-		list.add(new Pasta("조은경 "));
-		list.add(new Seoyejin("서예진"));
+//		// Cook을 상속받았으므로 각 각의 요리사 클래스를 담을 수 있다
+//		list.add(new ArraylistEx김민규("김민규"));
+//		list.add(new ChineseCook("chineseCook"));
+//		list.add(new cook이정훈("이정훈"));
+//		list.add(new HJHCook("HJHCook"));
+//		list.add(new juntae("표준태"));
+//		list.add(new kbj("김병진"));
+//		list.add(new kjy("김재열"));
+//		list.add(new ly("이윤 "));
+//		list.add(new lyj("이윤정"));
+//		list.add(new myCook("myCook"));
+//		list.add(new Najeong("문나정"));		 
+//		list.add(new Pasta("조은경 "));
+//		list.add(new Seoyejin("서예진"));
 		list.add(new Taemin("박태민"));
 		 
  
@@ -36,6 +36,7 @@ public class Main {
 		// 요리사종류별로 목록을 구성한다.
 		for (Cook cook : list) {
 			if (cook instanceof 한식가능한) {
+					// instanceof : 주어진 객체가 해당 클래스의 인스턴스인 경우 true를, 그렇지 않으면 false를 반환
 				한식요리사.add((한식가능한) cook);
 			} else if (cook instanceof 중식가능한) {
 				중식요리사.add((중식가능한) cook);

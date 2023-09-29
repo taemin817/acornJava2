@@ -3,7 +3,7 @@ package java2prj1.lamda;
 import java.util.Scanner;
 /*
 interface Runnable{
-		void run();
+		void run();			// 매개변수도 반환값도 없다
 	}
 */
 public class RunnableTest {

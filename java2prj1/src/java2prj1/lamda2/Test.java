@@ -68,7 +68,7 @@ public class Test {
 		boolean result1 = p.test("떡국");
 		
 		Function<Integer, int[]> func = num -> {
-				int[] qty = {1,3,2,4,5, 2};
+				int[] qty = {1,3,2,4,5,2};
 				return qty;
 		};
 		
