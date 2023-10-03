@@ -1,4 +1,4 @@
-package test;
+package practice;
 
 public class Pasta extends Food {
 

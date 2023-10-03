@@ -1,4 +1,4 @@
-package test;
+package practice;
 
 public class Foodbox<T extends Food > {
 	private Object[] obj;
